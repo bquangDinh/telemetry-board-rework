@@ -7069,15 +7069,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 218.44 67.31 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "adad65c4-ef0b-4003-accb-9b4d197f58b3")
 		(property "Reference" "R15"
-			(at 215.9 66.0399 0)
+			(at 220.98 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7086,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 215.9 68.5799 0)
+			(at 220.98 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7095,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 220.218 67.31 90)
+			(at 216.662 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,6 +7354,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bec1914e-169d-4d59-aacd-a25ca971bc37")
 		(property "Reference" "R6"
 			(at 116.84 116.8399 0)
