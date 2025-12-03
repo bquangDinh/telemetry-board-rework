@@ -1584,7 +1584,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1603,7 +1603,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Bridged"
+			(property "Value" "SolderJumper_2_Open"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1629,7 +1629,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1647,7 +1647,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1656,18 +1656,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SolderJumper_2_Open_0_1"
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -1741,7 +1730,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4735,12 +4724,6 @@
 		(uuid "99fc1b9b-721e-461d-ae6d-7810104294d5")
 	)
 	(junction
-		(at 45.72 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a888458-5869-4ae8-a4e6-3a0ce85ecbf2")
-	)
-	(junction
 		(at 26.67 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4777,10 +4760,28 @@
 		(uuid "ba3d0d48-33c7-41a3-aef6-3b7ff9a3080c")
 	)
 	(junction
+		(at 52.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4eb340-ab90-4031-983a-fa48226a0816")
+	)
+	(junction
+		(at 45.72 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befa174d-fefd-4490-ac70-6ec3bf42d5f7")
+	)
+	(junction
 		(at 264.16 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4b6790e-2d52-4902-809a-09aff4fb4282")
+	)
+	(junction
+		(at 222.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7465412-3747-4d8b-a15b-b2559665ed7f")
 	)
 	(junction
 		(at 88.9 59.69)
@@ -4831,12 +4832,6 @@
 		(uuid "e4136230-1b4d-4a34-bc05-537ff2f68f22")
 	)
 	(junction
-		(at 52.07 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e576adf1-707e-4eee-85ac-cfd6634f7a17")
-	)
-	(junction
 		(at 142.24 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4873,12 +4868,6 @@
 		(uuid "f796bca3-1a8c-4a6b-ae11-25738cd2cdd1")
 	)
 	(junction
-		(at 222.25 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa880d11-2986-4289-a9e5-46fa0bab3c35")
-	)
-	(junction
 		(at 88.9 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4895,10 +4884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fffd9c1f-6464-4b05-a635-ab3d99bc51da")
-	)
-	(no_connect
-		(at 266.7 116.84)
-		(uuid "0fafcda4-1a66-4a2a-86ca-ee0a6ce838e7")
 	)
 	(no_connect
 		(at 54.61 74.93)
@@ -4999,6 +4984,10 @@
 	(no_connect
 		(at 80.01 87.63)
 		(uuid "c2d16b6a-b11a-4a2f-a219-a8105511fa58")
+	)
+	(no_connect
+		(at 214.63 130.81)
+		(uuid "c55fc5dc-7ec9-4d71-8db9-384814d469b1")
 	)
 	(no_connect
 		(at 67.31 138.43)
@@ -5132,16 +5121,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 38.1) (xy 45.72 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09468509-4d3b-41d8-9512-caa5e0ae346c")
-	)
-	(wire
-		(pts
 			(xy 260.35 45.72) (xy 264.16 45.72)
 		)
 		(stroke
@@ -5219,16 +5198,6 @@
 			(type default)
 		)
 		(uuid "13091fc7-777c-4dce-9103-1c0a9b3b32f6")
-	)
-	(wire
-		(pts
-			(xy 45.72 46.99) (xy 52.07 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1338632c-0be3-49db-bf0d-ba4b90f450b9")
 	)
 	(wire
 		(pts
@@ -5382,13 +5351,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 142.24) (xy 266.7 142.24)
+			(xy 259.08 116.84) (xy 266.7 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26a2c333-4534-406c-ab71-4372d0eeb654")
+		(uuid "263a42ec-2eb9-4a5f-b33b-4fb4c98c83c9")
 	)
 	(wire
 		(pts
@@ -5502,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 129.54) (xy 266.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30529bc8-68bf-4302-8b0f-7c4c7b16cd61")
+	)
+	(wire
+		(pts
 			(xy 196.85 45.72) (xy 196.85 30.48)
 		)
 		(stroke
@@ -5509,6 +5488,16 @@
 			(type default)
 		)
 		(uuid "3064da50-702f-47b7-97c8-82b72fae15ca")
+	)
+	(wire
+		(pts
+			(xy 251.46 146.05) (xy 245.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f327b-382d-4b21-b0f9-8573fd2917ee")
 	)
 	(wire
 		(pts
@@ -5662,6 +5651,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 38.1) (xy 229.87 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0084e1-38e8-4a27-aec3-9fbbc991ca27")
+	)
+	(wire
+		(pts
 			(xy 203.2 80.01) (xy 203.2 86.36)
 		)
 		(stroke
@@ -5689,6 +5688,16 @@
 			(type default)
 		)
 		(uuid "4efc8bea-0f0c-4d81-b8c3-120209b9fa1d")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 251.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5113d8f4-b74b-46c4-9214-2b878c23ebda")
 	)
 	(wire
 		(pts
@@ -5819,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "67f9bf5b-21ca-4fa4-be14-2534ae74795a")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 266.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68588c74-1b94-477c-834a-8e951f1f2827")
 	)
 	(wire
 		(pts
@@ -6252,6 +6271,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bc1b02-f327-4fe7-9451-88f71becaf6f")
+	)
+	(wire
+		(pts
 			(xy 142.24 180.34) (xy 172.72 180.34)
 		)
 		(stroke
@@ -6662,6 +6691,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 138.43) (xy 245.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5466e78-eb22-486d-8c52-95b4637e64bc")
+	)
+	(wire
+		(pts
 			(xy 264.16 48.26) (xy 264.16 50.8)
 		)
 		(stroke
@@ -6712,13 +6751,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 38.1) (xy 229.87 38.1)
+			(xy 52.07 46.99) (xy 52.07 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8927c07-3d2c-4718-ac2b-ecd0decf993c")
+		(uuid "e8efa82e-3dfe-4836-876d-50e364255a88")
 	)
 	(wire
 		(pts
@@ -6772,6 +6811,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 144.78) (xy 266.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0121f0e-340a-470f-9a48-ba3a55536e75")
+	)
+	(wire
+		(pts
 			(xy 54.61 87.63) (xy 40.64 87.63)
 		)
 		(stroke
@@ -6792,16 +6841,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 130.81) (xy 200.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92115b4-a72b-4573-b7b6-e46a13c39785")
-	)
-	(wire
-		(pts
 			(xy 119.38 180.34) (xy 124.46 180.34)
 		)
 		(stroke
@@ -6809,16 +6848,6 @@
 			(type default)
 		)
 		(uuid "f96521bd-452b-4e47-8694-b16126b96ddd")
-	)
-	(wire
-		(pts
-			(xy 259.08 144.78) (xy 266.7 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8016e3-2b4b-4915-8648-43df5dcb670e")
 	)
 	(wire
 		(pts
@@ -6832,13 +6861,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 129.54) (xy 266.7 129.54)
+			(xy 251.46 144.78) (xy 251.46 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbbab50e-de85-4a8c-8d35-7e48719ec3f8")
+		(uuid "fb28dcd5-c46e-44ef-b92b-a1e797a8ba78")
 	)
 	(wire
 		(pts
@@ -6870,7 +6899,7 @@
 		)
 		(uuid "fff9852f-0da4-499d-b248-e1836a30ae17")
 	)
-	(label "AUX1"
+	(label "AUX3"
 		(at 259.08 127 0)
 		(effects
 			(font
@@ -6890,7 +6919,7 @@
 		)
 		(uuid "164685f3-fe50-4180-aa2d-391b5fa3c4ca")
 	)
-	(label "AUX_TX"
+	(label "TX"
 		(at 259.08 111.76 0)
 		(effects
 			(font
@@ -6961,7 +6990,7 @@
 		)
 		(uuid "449bbdc0-4c7a-4501-9d80-59b6b1e4acbf")
 	)
-	(label "VACT_GPS_OUT"
+	(label "RTX"
 		(at 200.66 128.27 0)
 		(effects
 			(font
@@ -6991,7 +7020,7 @@
 		)
 		(uuid "5c95f4fd-60ff-4c5f-8ee4-217fa44793ac")
 	)
-	(label "AUX_NCHARGING"
+	(label "CTX"
 		(at 200.66 125.73 0)
 		(effects
 			(font
@@ -7001,7 +7030,7 @@
 		)
 		(uuid "5ff652e2-f7ec-4cb3-8ea5-29fb69e871b1")
 	)
-	(label "SCL"
+	(label "VACT_GPS_IN"
 		(at 259.08 142.24 0)
 		(effects
 			(font
@@ -7032,7 +7061,7 @@
 		)
 		(uuid "63a1dc2e-9736-400e-a7f4-fca0cbb44833")
 	)
-	(label "SDA"
+	(label "VACT_GPS_OUT"
 		(at 259.08 144.78 0)
 		(effects
 			(font
@@ -7083,7 +7112,7 @@
 		)
 		(uuid "770e2866-4fb0-4efc-a93d-826cda2de495")
 	)
-	(label "RX"
+	(label "AUX_NCHARGING"
 		(at 259.08 139.7 0)
 		(effects
 			(font
@@ -7103,7 +7132,7 @@
 		)
 		(uuid "7ba7755c-3a88-449a-965d-646ef59070a2")
 	)
-	(label "TX"
+	(label "SCL"
 		(at 259.08 137.16 0)
 		(effects
 			(font
@@ -7113,7 +7142,7 @@
 		)
 		(uuid "7e3f46f0-fc2f-4491-b0f1-a3b9ec496ade")
 	)
-	(label "AUX_RX"
+	(label "RX"
 		(at 259.08 114.3 0)
 		(effects
 			(font
@@ -7174,7 +7203,7 @@
 		)
 		(uuid "995e333f-42d5-46e4-8fae-1799f54f326d")
 	)
-	(label "RTX"
+	(label "SDA"
 		(at 259.08 134.62 0)
 		(effects
 			(font
@@ -7204,7 +7233,7 @@
 		)
 		(uuid "9feee139-fd76-4326-86a3-5f1f8792c86b")
 	)
-	(label "ATTN"
+	(label "AUX2"
 		(at 259.08 129.54 0)
 		(effects
 			(font
@@ -7213,16 +7242,6 @@
 			(justify left bottom)
 		)
 		(uuid "a048f82b-3c89-4c88-b803-c7f77223deb5")
-	)
-	(label "VACT_GPS_IN"
-		(at 200.66 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7192cb3-50b4-4060-b856-2b63bcc77643")
 	)
 	(label "GND"
 		(at 259.08 147.32 0)
@@ -7233,6 +7252,16 @@
 			(justify left bottom)
 		)
 		(uuid "aeb9db90-781b-4f47-9526-d93660c5d475")
+	)
+	(label "AUX_TX"
+		(at 266.7 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af7ae3c1-d761-49e9-baa5-40a0749ce051")
 	)
 	(label "AUX2"
 		(at 40.64 95.25 0)
@@ -7264,7 +7293,7 @@
 		)
 		(uuid "b20d2faf-4078-4e04-aaa7-7c15f3c349a9")
 	)
-	(label "AUX3"
+	(label "ATTN"
 		(at 259.08 121.92 0)
 		(effects
 			(font
@@ -7284,7 +7313,7 @@
 		)
 		(uuid "bb976e03-50cc-4001-bea9-162ec557a926")
 	)
-	(label "AUX4"
+	(label "AUX_RX"
 		(at 259.08 119.38 0)
 		(effects
 			(font
@@ -7294,7 +7323,7 @@
 		)
 		(uuid "d31acb37-bb2c-496d-98e1-e2f589a76ddd")
 	)
-	(label "CTX"
+	(label "AUX1"
 		(at 259.08 132.08 0)
 		(effects
 			(font
@@ -7365,7 +7394,7 @@
 		)
 		(uuid "f86debda-e05c-4266-83dd-7023a1cb3949")
 	)
-	(label "AUX2"
+	(label "AUX4"
 		(at 259.08 124.46 0)
 		(effects
 			(font
@@ -7374,28 +7403,6 @@
 			(justify left bottom)
 		)
 		(uuid "fab4dcc9-17f0-478f-9330-6d1eeedaf965")
-	)
-	(global_label "PD14*"
-		(shape passive)
-		(at 247.65 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7fc137b2-f308-4b36-a2d8-405863d706c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.8495 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7730,74 +7737,6 @@
 			(project ""
 				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a361650e-b291-433d-8ba6-4be6ed8b8d80"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 251.46 129.54 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2856275f-42c6-4b8f-9b1d-1d7bd6ac0c7c")
-		(property "Reference" "JP1"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 251.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 251.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71bc04bf-c6b8-4d8c-b5dd-9ac311a6778d")
-		)
-		(pin "1"
-			(uuid "a38d0855-83a2-43d4-a28e-3fbc9eab9ffe")
-		)
-		(instances
-			(project ""
-				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a361650e-b291-433d-8ba6-4be6ed8b8d80"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9331,6 +9270,77 @@
 			(project ""
 				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a361650e-b291-433d-8ba6-4be6ed8b8d80"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 245.11 142.24 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92682756-ba05-44d0-bd41-ea7c6d6826ad")
+		(property "Reference" "JP1"
+			(at 247.65 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 247.65 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "968c4416-d770-4a1c-bffe-04bcb06a6578")
+		)
+		(pin "1"
+			(uuid "5b5a22f6-2e7d-4116-9ee6-0cbce9773b35")
+		)
+		(instances
+			(project ""
+				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a361650e-b291-433d-8ba6-4be6ed8b8d80"
+					(reference "JP1")
 					(unit 1)
 				)
 			)

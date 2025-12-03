@@ -1,4 +1,4 @@
-24763795046055498
+24774381406044817
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91245,6 +91245,13 @@ Inductor
 2
 2
 SamacSys_Parts
+LSR05TP
+SOT-143_2024
+TVS Diode (Uni-directional)
+0
+4
+4
+SamacSys_Parts
 MDT420E01001
 MDT420E01001-2
 Connector
@@ -91287,12 +91294,33 @@ Power Supply
 9
 9
 SamacSys_Parts
+SOP50P490X98-10N
+MSOP-10L
+Diode
+0
+10
+10
+SamacSys_Parts
 SOP65P640X120-8N
 PW0008A
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+SOP95P275X110-6N
+TSOP-6 (CASE 318G-02)
+Diode
+0
+6
+6
+SamacSys_Parts
+SOT95P275X110-6N
+TSOP−6 CASE 318G−02 ISSUE V
+Diode ESD (Uni-directional)
+0
+6
+6
 SamacSys_Parts
 SOT95P280X145-5N
 DBV (R-PDSO-G5)
@@ -91307,6 +91335,20 @@ TVS Diode (Uni-directional)
 0
 6
 6
+SamacSys_Parts
+USB421603A
+USB4216-03-A-3
+Connector
+0
+16
+16
+SamacSys_Parts
+VESD05A102VHG308
+SOD-523 (T=0.75mm)
+TVS Diode (Uni-directional)
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
