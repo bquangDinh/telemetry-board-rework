@@ -12739,6 +12739,16 @@
 		)
 		(uuid "068b42d6-a078-4a7b-9120-c0adb08682e3")
 	)
+	(label "PD14"
+		(at 255.27 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06adc529-dbcb-47a9-9e1d-4433586cb84f")
+	)
 	(label "PA10"
 		(at 118.11 60.96 0)
 		(effects
@@ -13751,6 +13761,16 @@
 		)
 		(uuid "87d0d3f8-ee42-4999-95ef-c5aa1b183589")
 	)
+	(label "PD14"
+		(at 36.83 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a329a87-dd10-4428-9331-6494ca2dd759")
+	)
 	(label "PD15"
 		(at 255.27 228.6 180)
 		(effects
@@ -14589,50 +14609,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe33051f-5a3d-4650-b91a-4e8e25334efd")
-	)
-	(global_label "PD14*"
-		(shape passive)
-		(at 255.27 226.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "605ff15a-064f-4b0e-bdc1-ee4185b0c4ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.4695 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD14*"
-		(shape passive)
-		(at 36.83 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7816d5b2-242b-4218-b9bd-f4abd52a3fcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0295 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
