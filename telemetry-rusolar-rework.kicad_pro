@@ -251,7 +251,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|368300|1193800|5f158886-71ad-4960-9ab3-eb08d66cc17c|4bcc560b-9464-4ce3-a9d8-612188f17670|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e",
+        "By datasheet. All VCAP are tied together"
+      ],
+      [
+        "pin_to_pin|368300|1219200|4bcc560b-9464-4ce3-a9d8-612188f17670|a763bb82-012e-4a61-8ef8-b3fffb6f348c|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e",
+        "By datasheet. All VCAP are tied together"
+      ]
+    ],
     "meta": {
       "version": 0
     },

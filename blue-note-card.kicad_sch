@@ -7684,13 +7684,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V Buck"
-			(at 22.86 121.9199 0)
+		(property "Value" "+5V"
+			(at 20.32 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
