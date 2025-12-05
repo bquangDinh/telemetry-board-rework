@@ -1,4 +1,4 @@
-24774381406044817
+24776146233493464
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91314,6 +91314,13 @@ Diode
 0
 6
 6
+SamacSys_Parts
+SOT95P240X120-3N
+sot23-3l
+Integrated Circuit
+0
+3
+3
 SamacSys_Parts
 SOT95P275X110-6N
 TSOP−6 CASE 318G−02 ISSUE V

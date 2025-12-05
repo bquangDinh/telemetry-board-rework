@@ -3181,6 +3181,28 @@
 		)
 		(uuid "c507da6a-c2f5-483c-8914-3253528e5234")
 	)
+	(text_box "5V ORing"
+		(exclude_from_sim no)
+		(at 271.272 60.198 0)
+		(size 129.286 66.548)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "30f53ad7-b584-4fd3-a342-e04a261b2d19")
+	)
 	(junction
 		(at 252.73 49.53)
 		(diameter 0)
@@ -6902,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 44.45 172.72 0)
 			(effects
 				(font
@@ -9333,7 +9355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 44.45 189.23 0)
 			(effects
 				(font
@@ -9833,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 44.45 156.21 0)
 			(effects
 				(font
