@@ -63,7 +63,20 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|26000000|133950000|d0c9cb09-e46b-40f6-ac16-711d6239ab07|16012023-03f6-4fdd-ad3d-1fe7e1ecd94c",
+          ""
+        ],
+        [
+          "clearance|59600000|172500000|687596ed-c66d-409c-95aa-72c922c02625|dc365ead-7d86-426b-853b-9a3b3bd7d27e",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|55525000|109551000|47575f66-fb3e-4237-904d-82ec5fad1b39|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -251,7 +264,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2476500|787400|5fc770dd-aa72-4b78-aaf3-f9446a486323|29c91019-0dcb-4031-9f4f-41def110be51|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e",
+        ""
+      ],
+      [
+        "multiple_net_names|850900|254000|1eea2c4a-8c63-46e0-8a3f-9e9c1ffd7db1|1697fbcf-a56b-4450-849b-c5d9f3c83131|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e",
+        ""
+      ],
+      [
+        "multiple_net_names|876300|254000|fd0b2688-e78f-4a10-8ed9-bbae504f3b9e|12e0633a-c360-4dfd-9a02-4ffb158188e0|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e|/32c2c747-0685-4927-b759-a1d2bc91875e",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -707,6 +733,10 @@
     [
       "b549e9a9-8b38-4eb3-901d-8861fcc01a4a",
       "power"
+    ],
+    [
+      "a402a0ce-c9ea-466a-871f-9107282f1be8",
+      "ESP32-Wifi"
     ]
   ],
   "text_variables": {}

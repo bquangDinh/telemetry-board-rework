@@ -1,4 +1,4 @@
-24793798254834804
+24815031567356058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91196,6 +91196,13 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
+2092MS
+209-2MS-1
+Switch
+0
+4
+4
+SamacSys_Parts
 53261-1571
 53261-1571
 Connector
@@ -91216,6 +91223,27 @@ Connector
 0
 12
 12
+SamacSys_Parts
+530470310
+53047-0310-3
+Connector
+0
+3
+3
+SamacSys_Parts
+530470410
+53047-0410-1
+Connector
+0
+4
+4
+SamacSys_Parts
+530470710
+53047-0710-4
+Connector
+0
+7
+7
 SamacSys_Parts
 532610271
 53261-0271-4
@@ -91245,6 +91273,13 @@ Inductor
 2
 2
 SamacSys_Parts
+CUHS20S40H3F
+CUHS20S40,H3F-2
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
 DIOM5336X250N
 SMB
 TVS Diode (Uni-directional)
@@ -91255,6 +91290,20 @@ SamacSys_Parts
 DIOM5436X261N
 DO-214AA (SMB J-Bend)
 TVS Diode (Uni-directional)
+0
+2
+2
+SamacSys_Parts
+DIONM5026X229N
+DO-214AC (SMA)
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_Parts
+ESDA7P601U1M
+1610
+Diode Clamping
 0
 2
 2
@@ -91308,6 +91357,13 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+PMEG3005AESFYL
+SOD962-2
+Diode ESD (Bi-directional)
+0
+2
+2
+SamacSys_Parts
 QFN50P300X300X100-17N-D
 16qfn
 Integrated Circuit
@@ -91328,6 +91384,13 @@ Connector
 0
 18
 18
+SamacSys_Parts
+SHDRRA2W35P0X125_1X2_425X550X350P
+0530480210
+Connector
+0
+2
+2
 SamacSys_Parts
 SKTHAHE010
 SKTHAHE010-2
@@ -91406,6 +91469,20 @@ Integrated Circuit
 5
 5
 SamacSys_Parts
+SOT95P280X145-6N
+SOT-23 (6)
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT96P240X115-3N
+SOT23 (Standard)
+Diode
+0
+3
+3
+SamacSys_Parts
 SOTFL50P160X60-6N
 ESDLC5V0M5-TP
 TVS Diode (Uni-directional)
@@ -91419,6 +91496,13 @@ Connector
 0
 16
 16
+SamacSys_Parts
+USBLC62P6
+USBLC6-2P6-3
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 VESD05A102VHG308
 SOD-523 (T=0.75mm)
