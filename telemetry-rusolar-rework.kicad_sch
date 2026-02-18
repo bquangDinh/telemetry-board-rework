@@ -9844,6 +9844,16 @@
 		)
 		(uuid "1f027b52-9714-41b6-aaed-c8e790443544")
 	)
+	(text "UART4 TX"
+		(exclude_from_sim no)
+		(at 121.158 33.528 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "3b54f2c9-9c63-4540-b224-9b514aac186c")
+	)
 	(text "https://www.mouser.com/catalog/specsheets/an10911.pdf"
 		(exclude_from_sim no)
 		(at 158.496 98.806 0)
@@ -9883,6 +9893,16 @@
 			)
 		)
 		(uuid "c727bd69-079a-4ae5-939e-32139665fb58")
+	)
+	(text "UART4 RX"
+		(exclude_from_sim no)
+		(at 126.492 37.846 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "dcfffd75-591c-43e5-bfe5-6f2896e280b2")
 	)
 	(text "YELLOW"
 		(exclude_from_sim no)
@@ -10761,6 +10781,12 @@
 		(uuid "e8ccefea-060b-4fc6-847d-bddc9fff2e87")
 	)
 	(junction
+		(at 303.53 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb22f257-4c35-4e14-a026-d90f7584c49f")
+	)
+	(junction
 		(at 356.87 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10807,10 +10833,6 @@
 		(uuid "23568e7a-c632-43ab-b839-47be227edb9a")
 	)
 	(no_connect
-		(at 300.99 194.31)
-		(uuid "50ee53ad-547d-44d0-9ac2-7227e77a0697")
-	)
-	(no_connect
 		(at 36.83 45.72)
 		(uuid "a3c2cec0-3b0d-4976-ad76-5b0bfee6e532")
 	)
@@ -10851,6 +10873,16 @@
 			(type default)
 		)
 		(uuid "01402da1-e80d-44f5-8285-f3ec55ad1fb7")
+	)
+	(wire
+		(pts
+			(xy 300.99 196.85) (xy 303.53 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017ac0bd-c6f8-4da6-b6f4-21544a439ff5")
 	)
 	(wire
 		(pts
@@ -11094,7 +11126,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 194.31) (xy 303.53 199.39)
+			(xy 303.53 194.31) (xy 303.53 196.85)
 		)
 		(stroke
 			(width 0)
@@ -12914,6 +12946,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 194.31) (xy 300.99 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ce1d63-5de6-4c2d-aa82-d639e6b30a19")
+	)
+	(wire
+		(pts
 			(xy 58.42 264.16) (xy 60.96 264.16)
 		)
 		(stroke
@@ -13634,6 +13676,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 196.85) (xy 303.53 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9da61e2-5e62-41c2-8b5e-3af6062e432e")
+	)
+	(wire
+		(pts
 			(xy 180.34 140.97) (xy 177.8 140.97)
 		)
 		(stroke
@@ -14324,16 +14376,6 @@
 		)
 		(uuid "200d9671-0b3d-4680-a406-719f8ba8928f")
 	)
-	(label "PB10_PIN_HEADER"
-		(at 116.84 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2067f073-3c43-4db6-bf91-d1682d5f8c20")
-	)
 	(label "PD3"
 		(at 36.83 88.9 180)
 		(effects
@@ -14674,16 +14716,6 @@
 		)
 		(uuid "4b07cad4-1885-4635-bcdb-6ccf0a897f75")
 	)
-	(label "PA1"
-		(at 238.76 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e56b16f-0483-4f2b-b4c9-3e348cd480e4")
-	)
 	(label "USART2_TX"
 		(at 320.04 138.43 180)
 		(effects
@@ -14863,16 +14895,6 @@
 			(justify right bottom)
 		)
 		(uuid "63b4724f-aa5a-4539-b6b1-62cd7e91fc32")
-	)
-	(label "PA0"
-		(at 238.76 241.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ac8426-e101-4e03-9154-18787849a913")
 	)
 	(label "VDD"
 		(at 251.46 60.96 270)
@@ -16018,6 +16040,50 @@
 			)
 		)
 	)
+	(global_label "PA1"
+		(shape passive)
+		(at 238.76 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13ea8d26-3167-4456-adb8-8da2a1c4f983")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.318 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA0"
+		(shape passive)
+		(at 238.76 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "558802bc-4738-4b5c-89b8-9455121d121e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.318 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PE5"
 		(shape passive)
 		(at 36.83 71.12 180)
@@ -16098,6 +16164,28 @@
 		(uuid "9b4778bd-6d06-4d65-9087-5e764287f15b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.552 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB10_PIN_HEADER"
+		(shape passive)
+		(at 116.84 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8c44ff0-1f60-4bdf-a3ff-d46a2db817ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.0705 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

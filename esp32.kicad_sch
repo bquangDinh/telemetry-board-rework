@@ -2649,6 +2649,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "STM32 UART4 TX"
+		(exclude_from_sim no)
+		(at 269.494 72.898 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "2c6e3881-ed9f-4b0f-9e90-1679b937714c")
+	)
+	(text "STM32 UART4 RX"
+		(exclude_from_sim no)
+		(at 268.986 80.264 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "3c5f9214-b718-4a42-8cbe-66d4c089d66a")
+	)
+	(text "ESP UART2 RX"
+		(exclude_from_sim no)
+		(at 243.586 74.168 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "409235a6-2832-4b7d-b713-859fe0ca4092")
+	)
+	(text "ESP UART2 TX"
+		(exclude_from_sim no)
+		(at 243.586 76.708 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "83434f82-6752-4e5b-8f7b-9be03ce92ef3")
+	)
 	(junction
 		(at 52.07 147.32)
 		(diameter 0)
@@ -2832,10 +2872,6 @@
 		(uuid "4637be46-a3c0-4fc7-969b-eaefd6cb3659")
 	)
 	(no_connect
-		(at 238.76 77.47)
-		(uuid "4cdc9081-787b-4223-80da-610e47deefcc")
-	)
-	(no_connect
 		(at 238.76 80.01)
 		(uuid "5e4e55ef-7148-4e69-9403-9b95dafcaf2b")
 	)
@@ -2846,10 +2882,6 @@
 	(no_connect
 		(at 238.76 85.09)
 		(uuid "5f0cdceb-fcbd-4ae8-b7cb-ef39db8a46ac")
-	)
-	(no_connect
-		(at 238.76 74.93)
-		(uuid "7cd30510-b1cd-4d66-95b3-7986adcee4cc")
 	)
 	(no_connect
 		(at 86.36 107.95)
@@ -2928,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "010975e2-cf74-457e-9d2c-0f0516831034")
+	)
+	(wire
+		(pts
+			(xy 238.76 74.93) (xy 252.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b2c78-1c01-40ac-857b-42fd83dc7b62")
 	)
 	(wire
 		(pts
@@ -3128,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "5a8920df-9e55-4f35-9d16-0d3914b6de23")
-	)
-	(wire
-		(pts
-			(xy 257.81 55.88) (xy 254 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b15fe82-8329-4051-b0bf-309ccc3c2ef2")
 	)
 	(wire
 		(pts
@@ -3431,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 77.47) (xy 266.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f7917c-e267-4adf-b7ec-640c07875067")
+	)
+	(wire
+		(pts
 			(xy 58.42 40.64) (xy 31.75 40.64)
 		)
 		(stroke
@@ -3498,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "d4b42695-a546-47f6-a3a3-d4669aba449a")
+	)
+	(wire
+		(pts
+			(xy 266.7 74.93) (xy 257.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52be19c-aa1f-45ae-8f40-4fae7b024638")
 	)
 	(wire
 		(pts
@@ -3621,7 +3673,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 55.88) (xy 242.57 55.88)
+			(xy 242.57 55.88) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3689,6 +3741,16 @@
 			(justify left bottom)
 		)
 		(uuid "36aa61bf-eca5-450c-903e-70491e3f94eb")
+	)
+	(label "ESP_UART0_RX"
+		(at 257.81 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "486bb6f9-6cd0-43b1-8680-e0e0540dbe0c")
 	)
 	(label "ESP_EN"
 		(at 39.37 139.7 180)
@@ -3761,6 +3823,16 @@
 		)
 		(uuid "72c927e1-03db-442f-bf8e-77f9f50062e6")
 	)
+	(label "ESP_UART0_TX"
+		(at 257.81 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74fe28bb-ca8c-433c-82a8-b1641dce5493")
+	)
 	(label "IO4"
 		(at 198.12 137.16 0)
 		(effects
@@ -3781,6 +3853,16 @@
 		)
 		(uuid "7f08a074-3ab4-467a-80f3-b44ebe6906df")
 	)
+	(label "ESP_UART0_RX"
+		(at 163.83 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "914da75e-5162-460b-be7f-b3e358559726")
+	)
 	(label "ESP_ON"
 		(at 88.9 173.99 0)
 		(effects
@@ -3800,6 +3882,16 @@
 			(justify right bottom)
 		)
 		(uuid "9d694c57-ffcc-413c-acc2-7a110f2b220a")
+	)
+	(label "ESP_UART0_TX"
+		(at 163.83 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a56c2c5a-f710-40c9-9ae4-6e36e59840e3")
 	)
 	(label "NOTE_ON"
 		(at 58.42 107.95 180)
@@ -3833,29 +3925,7 @@
 	)
 	(global_label "PA0"
 		(shape passive)
-		(at 176.53 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cb45432-014e-4e3b-99cb-8ad8cfd1ab24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.972 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA0"
-		(shape passive)
-		(at 257.81 55.88 0)
+		(at 266.7 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3865,7 +3935,7 @@
 		)
 		(uuid "390a8fd6-9584-4439-badb-9d8d705bde88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.252 55.88 0)
+			(at 272.142 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3947,7 @@
 	)
 	(global_label "PA1"
 		(shape passive)
-		(at 257.81 52.07 0)
+		(at 266.7 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3887,29 +3957,7 @@
 		)
 		(uuid "860e8ee3-f3e2-4de6-81d6-c58f8737a804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.252 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA1"
-		(shape passive)
-		(at 176.53 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5ac7f37-d72e-4c63-8de3-619a29f24c19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.972 140.97 0)
+			(at 272.142 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,6 +5704,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 255.27 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "802606da-09e4-4854-9326-a71f156c6d2c")
+		(property "Reference" "R10"
+			(at 255.27 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 255.27 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6196b62-c326-4b77-bf30-e0390e7ba169")
+		)
+		(pin "2"
+			(uuid "18204c37-660d-4175-bf43-16a3119e1347")
+		)
+		(instances
+			(project ""
+				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a402a0ce-c9ea-466a-871f-9107282f1be8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 201.93 39.37 0)
 		(unit 1)
@@ -5720,74 +5836,6 @@
 			(project ""
 				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a402a0ce-c9ea-466a-871f-9107282f1be8"
 					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 251.46 55.88 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a638d0a-d7ac-4eea-9604-39309c7f7e8e")
-		(property "Reference" "R12"
-			(at 251.46 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 251.46 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 251.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 251.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a82897ce-3c3a-4212-9057-aed4647568f1")
-		)
-		(pin "1"
-			(uuid "aa6866c7-69e8-44c7-a74b-05e9f87b0c48")
-		)
-		(instances
-			(project "telemetry-rusolar-rework"
-				(path "/32c2c747-0685-4927-b759-a1d2bc91875e/a402a0ce-c9ea-466a-871f-9107282f1be8"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6461,7 +6509,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 171.45 140.97 0)
+		(at 158.75 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6470,7 +6518,7 @@
 		(fields_autoplaced yes)
 		(uuid "c66c6bea-194f-4467-9224-081a5e346ad7")
 		(property "Reference" "J6"
-			(at 172.085 135.89 0)
+			(at 159.385 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6526,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 172.085 138.43 0)
+			(at 159.385 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6534,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 171.45 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6552,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 171.45 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
