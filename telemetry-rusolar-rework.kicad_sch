@@ -19330,7 +19330,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 187.96 115.57 90)
 			(effects
 				(font
@@ -21206,7 +21206,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "90k"
 			(at 187.96 123.19 90)
 			(effects
 				(font
@@ -21802,7 +21802,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 187.96 138.43 90)
 			(effects
 				(font
@@ -25425,7 +25425,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 187.96 130.81 90)
 			(effects
 				(font
