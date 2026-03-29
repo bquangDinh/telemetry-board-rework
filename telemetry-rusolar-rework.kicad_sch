@@ -10558,6 +10558,12 @@
 		(uuid "7e34feef-a5e8-4601-a9f4-214098d802f2")
 	)
 	(junction
+		(at 193.04 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f03665e-7954-4f0c-839e-022abef26962")
+	)
+	(junction
 		(at 266.7 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13689,16 +13695,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 146.05) (xy 193.04 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5be3899-d8cc-414d-919f-0891619a9332")
-	)
-	(wire
-		(pts
 			(xy 313.69 171.45) (xy 320.04 171.45)
 		)
 		(stroke
@@ -13926,6 +13922,16 @@
 			(type default)
 		)
 		(uuid "d49b8be6-6a1a-4511-a9db-d642a9103430")
+	)
+	(wire
+		(pts
+			(xy 193.04 148.59) (xy 212.09 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c9fb81-0c74-4b0a-aa89-e93f696f24b8")
 	)
 	(wire
 		(pts
@@ -14186,6 +14192,16 @@
 			(type default)
 		)
 		(uuid "ebf6713e-4104-434e-a586-2c4b64118dd8")
+	)
+	(wire
+		(pts
+			(xy 193.04 165.1) (xy 193.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec906fe2-c50a-48c6-a0d0-127530dd8a4f")
 	)
 	(wire
 		(pts
@@ -14479,7 +14495,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 148.59) (xy 212.09 148.59)
+			(xy 171.45 148.59) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -22162,7 +22178,7 @@
 				)
 			)
 		)
-		(property "Value" "USR LED1"
+		(property "Value" "R/W"
 			(at 321.31 101.092 0)
 			(effects
 				(font
@@ -24043,7 +24059,7 @@
 				)
 			)
 		)
-		(property "Value" "USR LED2"
+		(property "Value" "DETECT"
 			(at 321.31 111.252 0)
 			(effects
 				(font
